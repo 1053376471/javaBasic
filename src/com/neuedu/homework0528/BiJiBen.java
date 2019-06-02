@@ -1,4 +1,4 @@
-package com.neuedu.homwork0528;
+package com.neuedu.homework0528;
 
 public class BiJiBen {
     //2、定义一个笔记本类，该类有颜色（char）和cpu型号（int）两个属性。

@@ -6,24 +6,23 @@ public class Test {
          * 冒泡排序
          */
         int[] arr = {11, 3, 45, 21, 99, 1};
-        System.out.println("排序前数组为：");
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-        for (int i = 0; i < arr.length - 1; i++) {                    //外层循环控制排序趟数
-            for (int j = 0; j < arr.length - 1-i; j++) {              //内层循环控制每一趟排序多少次
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
+                    int tmp = 0;
+                    tmp = arr[j];
                     arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+                    arr[j + 1] = tmp;
                 }
             }
         }
-        System.out.println();
-        System.out.println("排序后的数组为：");
-        for (int num : arr) {
-            System.out.print(num + " ");
+        for (int a : arr
+        ) {
+            System.out.println(a);
         }
     }
+//    public String to;
+
+
 }
 

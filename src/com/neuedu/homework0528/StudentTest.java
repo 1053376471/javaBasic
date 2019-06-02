@@ -1,8 +1,8 @@
-package com.neuedu.homwork0528;
+package com.neuedu.homework0528;
 
 import java.util.Scanner;
 
-public class TestStudent {
+public class StudentTest {
     public static void main(String[] args) {
         Scanner inupt = new Scanner(System.in);
 
