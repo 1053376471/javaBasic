@@ -1,4 +1,4 @@
-package com.neuedu.homework0601;
+package com.neuedu.homework0604;
 
 
 public class ChartSquare extends Chart {
